@@ -9,4 +9,5 @@ emitter.on('someEvent',function(arg1,arg2){
     console.log('listenner2',arg1,arg2);
 
 });
+
 emitter.emit('someEvent','arg1参数','arg2参数');
